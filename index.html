@@ -10,12 +10,12 @@
     <section>
         <h2>Contacto</h2>
         <form action="#">
-            <input type="text" placeholder="Nombre"/>
-            <input type="file" />
-            <input type="email" />
-            <input type="number" />
+            <input type="text" placeholder="Nombre" required pattern="[A-Za-z]+"/>
+            <input type="text" placeholder="Apellido" required pattern="[A-Za-z]+"/>
+            <input type="email" placeholder="Email" required/>
+            <input type="text" placeholder="Telefono"required pattern=""/>
             <textarea name="" id="" cols="30" rows="10"></textarea>
-            <button>Boton</button>
+            <button>Enviar</button>
         </form>
     </section>
 </body>
